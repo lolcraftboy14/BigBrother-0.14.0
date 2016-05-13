@@ -73,9 +73,9 @@ class BigBrother extends PluginBase implements Listener{
 		}
 
 		switch(Info::CURRENT_PROTOCOL){
-			case 45:
+			case 60:
 				$this->translator = new Translator_45();
-			case 42:
+			case 45:
 				$this->translator = new Translator_42();
 			break;
 			default:
